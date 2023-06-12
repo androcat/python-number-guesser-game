@@ -6,7 +6,6 @@
 import random
 
 isWinner = False
-cpuNum = random.randint(1, 10)
 count = 3
 
 num = int(input("Hello, I am CPU. I have 3 tries to guess your number. Enter a number between 1 and 10: "))
