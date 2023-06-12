@@ -7,7 +7,6 @@ import random
 
 isWinner = False
 cpuNum = random.randint(1, 10)
-print(cpuNum)
 
 count = 3
 while count > 0:
