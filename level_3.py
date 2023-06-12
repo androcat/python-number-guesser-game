@@ -17,7 +17,7 @@ print("My guess is",cpu)
 
 while count >= 0:
     count += 1
-    player = input("Was my too high or too low? (h/l/c): ")
+    player = input("Was my too high, too low, or correct? (h/l/c): ")
 
     if cpu == num:
         print(f"I win in {count} guesses!")
